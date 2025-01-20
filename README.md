@@ -33,26 +33,10 @@ These are the data points used to make predictions.
 - Example 1: In predicting house prices, X might include features like the house's dimensions, number of bedrooms, or distance from the city.
 - Example 2: In a classification model like animal image recognition, X could represent the weight, height, and color of the animal.
 
-<<<<<<< HEAD
-So lets start, by understaning various data Preprocessing tool to make you data look clean and tidy (┬┬﹏┬┬), code for these tools are given in Level-1 file...
-
-•> Simple Imputer - if you dataset has some missing or empty columns, this tool can fill it up by taking the average of the whole column making the missing 
-                    value look more real & natural.
-•> Feature Scaling - apply to convert much vaarying values into smaller ranges, two types are-
-                1> Nomalization [0,1], mostly used in KNN, neural networks,
-                2> Standardization [-3,+3] mostly used in Linear regression, Support vector machine (SVM)
-•>One-Hot Encoding - To convert the categorical values into numerical forms,
-                    used when there is no relationship between the columns of output like CAT,DOG,etc..
-•>Label Encoding - this is also used to convert the categorical values into numeric value but,
-                    it is used when there is relationship in-between the columns of the output, 
-                    like customer satisfation the level could be the low, medium, high as low is smaller than medium, and similarly for medium and high,
-                    or it could be YES/NO, because there it relationship like in the form of 0/1.
-=======
 ### Y → Dependent Variable (Target)
 This is the output that the model predicts.
 - Example 1: In predicting house prices, Y would be the actual price of the house.
 - Example 2: In a classification model, Y could be the category (e.g., DOG, CAT, BIRD, etc.).
->>>>>>> 2bc8811b872e582de40106580bd0de58b59fe0b7
 
 The overall goal of an ML algorithm is to establish a relationship between **X** (independent features) and **Y** (dependent output).  
 This relationship can be represented as:
