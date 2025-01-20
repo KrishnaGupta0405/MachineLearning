@@ -55,3 +55,16 @@ where \( e \) is random noise or error.
 
 - **Label Encoding**: Converts categorical values into numeric form but is used when there is a relationship between categories, such as customer satisfaction levels (low, medium, high), or binary choices (YES/NO).  
   Example: Low < Medium < High, or YES (1) / NO (0).
+
+
+### Some statistical function of Pandas Library
+
+1. dataset.head() -> to get first five row of the dataset
+2. dataset.describe()-> to get sttiscal information i.e. count,mean,std,min,man, quartile->1st,2nd,3rd,4th
+3. dataset.shapte()-> shows (row x column) of the dataset
+4. dataset['Outcome'].value_counts()-> outcome is dependent variable or the last column, that has the outcome,
+[example2.jpg](example2.png)                                       
+5. dataset.groupby('Outcome').mean()-> on the basis of the outcome column data will be merged and the mean will be shown like this
+[example1.jpg](example1.png)
+
+
