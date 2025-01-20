@@ -35,7 +35,8 @@ The overall goal of the ML Algo is to set a relationship between the X(Independe
     it can be stated as Y=F(X)+e ; where e it the random noise or error
 
 
-So lets start, by understaning various data Preprocessing tool to make you data look clean and tidy (┬┬﹏┬┬)
+So lets start, by understaning various data Preprocessing tool to make you data look clean and tidy (┬┬﹏┬┬), code for these tools are given in Level-1 file...
+
 •> Simple Imputer - if you dataset has some missing or empty columns, this tool can fill it up by taking the average of the whole column making the missing 
                     value look more real & natural.
 •> Feature Scaling - apply to convert much vaarying values into smaller ranges, two types are-
