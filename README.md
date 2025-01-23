@@ -56,8 +56,9 @@ where \( e \) is random noise or error.
 - **Label Encoding**: Converts categorical values into numeric form but is used when there is a relationship between categories, such as customer satisfaction levels (low, medium, high), or binary choices (YES/NO).  
   Example: Low < Medium < High, or YES (1) / NO (0).
 
+---
 
-### Some statistical function of Pandas Library
+### Some statistical function of Pandas Library.
 
 1. dataset.head() -> to get first five row of the dataset
 2. dataset.describe()-> to get sttiscal information i.e. count,mean,std,min,man, quartile->1st,2nd,3rd,4th
