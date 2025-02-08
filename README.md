@@ -62,15 +62,15 @@ where \( e \) is random noise or error.
 
 1. **`dataset.head()`** → Displays the first five rows of the dataset.
    
-   <img src="readmeMisc/example1.png" alt="First five rows" width="500px">
+   <img src="readmeMisc/example1.png" alt="First five rows" width="700px">
 
 2. **`dataset.describe()`** → Provides statistical information such as count, mean, standard deviation, min, max, and quartiles (1st, 2nd, 3rd, 4th).
    
-   <img src="readmeMisc/example2.png" alt="Statistical Summary" width="500px">
+   <img src="readmeMisc/example2.png" alt="Statistical Summary" width="700px">
 
 3. **`dataset.shape()`** → Shows the dataset's dimensions (rows × columns).
    
-   <img src="readmeMisc/example3.png" alt="Dataset shape" width="400px">
+   <img src="readmeMisc/example3.png" alt="Dataset shape" width="450px">
 
 4. **`dataset['Outcome'].value_counts()`** → Displays the count of each unique value in the target (dependent) variable.
    
@@ -78,7 +78,7 @@ where \( e \) is random noise or error.
 
 5. **`dataset.groupby('Outcome').mean()`** → Groups data based on the `Outcome` column and calculates the mean for each group.
    
-   <img src="readmeMisc/example5.png" alt="Grouped Mean by Outcome" width="500px">
+   <img src="readmeMisc/example5.png" alt="Grouped Mean by Outcome" width="700px">
 
 6. **`dataset.isnull().sum()`** → Checks for missing values in each column and provides the total count per column.
    
