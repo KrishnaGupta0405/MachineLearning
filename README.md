@@ -62,10 +62,19 @@ where \( e \) is random noise or error.
 
 1. dataset.head() -> to get first five row of the dataset
 2. dataset.describe()-> to get sttiscal information i.e. count,mean,std,min,man, quartile->1st,2nd,3rd,4th
-3. dataset.shapte()-> shows (row x column) of the dataset
+3. dataset.shapt()-> shows (row x column) of the dataset
 4. dataset['Outcome'].value_counts()-> outcome is dependent variable or the last column, that has the outcome,
 [example2.jpg](example2.png)                                       
 5. dataset.groupby('Outcome').mean()-> on the basis of the outcome column data will be merged and the mean will be shown like this
 [example1.jpg](example1.png)
 
+### Evaluation techniques for Regression and Classification
 
+For classification problem, where y_test and y_pred are categorical (e.g., classes like 0, 1, 2)-> 
+    Confusion matrix and accracy score.
+
+For regression-specific evaluation metrics such as:-> 
+    Mean Absolute Error (MAE)
+    Mean Squared Error (MSE)
+    Root Mean Squared Error (RMSE)
+    R² Score (Coefficient of Determination)
