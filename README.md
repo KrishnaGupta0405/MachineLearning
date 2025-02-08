@@ -61,12 +61,17 @@ where \( e \) is random noise or error.
 ### Some statistical function of Pandas Library.
 
 1. dataset.head() -> to get first five row of the dataset
+![example1.jpg](readmeMisc\example1.png) 
 2. dataset.describe()-> to get sttiscal information i.e. count,mean,std,min,man, quartile->1st,2nd,3rd,4th
-3. dataset.shapt()-> shows (row x column) of the dataset
+![example2.jpg](readmeMisc\example2.png) 
+3. dataset.shape()-> shows (row x column) of the dataset
+![example3.jpg](readmeMisc\example3.png) 
 4. dataset['Outcome'].value_counts()-> outcome is dependent variable or the last column, that has the outcome,
-[example2.jpg](example2.png)                                       
+![example4.jpg](readmeMisc\example4.png)                                       
 5. dataset.groupby('Outcome').mean()-> on the basis of the outcome column data will be merged and the mean will be shown like this
-[example1.jpg](example1.png)
+![example5.jpg](readmeMisc\example5.png)
+6. dataset.isnull().sum-> to check if any cols has empty or null value, their total count
+![example6.jpg](readmeMisc\example6.png)
 
 ### Evaluation techniques for Regression and Classification
 
