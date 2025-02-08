@@ -58,28 +58,43 @@ where \( e \) is random noise or error.
 
 ---
 
-### Some statistical function of Pandas Library.
+### 📊 Some Statistical Functions of Pandas Library
 
-1. dataset.head() -> to get first five row of the dataset
-![example1.jpg](readmeMisc/example1.png) 
-2. dataset.describe()-> to get sttiscal information i.e. count,mean,std,min,man, quartile->1st,2nd,3rd,4th
-![example2.jpg](readmeMisc/example2.png) 
-3. dataset.shape()-> shows (row x column) of the dataset
-![example3.jpg](readmeMisc/example3.png) 
-4. dataset['Outcome'].value_counts()-> outcome is dependent variable or the last column, that has the outcome,
-![example4.jpg](readmeMisc/example4.png)                                       
-5. dataset.groupby('Outcome').mean()-> on the basis of the outcome column data will be merged and the mean will be shown like this
-![example5.jpg](readmeMisc/example5.png)
-6. dataset.isnull().sum-> to check if any cols has empty or null value, their total count
-![example6.jpg](readmeMisc/example6.png)
+1. **`dataset.head()`** → Displays the first five rows of the dataset.
+   
+   <img src="readmeMisc/example1.png" alt="First five rows" width="500px">
 
-### Evaluation techniques for Regression and Classification
+2. **`dataset.describe()`** → Provides statistical information such as count, mean, standard deviation, min, max, and quartiles (1st, 2nd, 3rd, 4th).
+   
+   <img src="readmeMisc/example2.png" alt="Statistical Summary" width="500px">
 
-For classification problem, where y_test and y_pred are categorical (e.g., classes like 0, 1, 2)-> 
-    Confusion matrix and accracy score.
+3. **`dataset.shape()`** → Shows the dataset's dimensions (rows × columns).
+   
+   <img src="readmeMisc/example3.png" alt="Dataset shape" width="400px">
 
-For regression-specific evaluation metrics such as:-> 
-    Mean Absolute Error (MAE)
-    Mean Squared Error (MSE)
-    Root Mean Squared Error (RMSE)
-    R² Score (Coefficient of Determination)
+4. **`dataset['Outcome'].value_counts()`** → Displays the count of each unique value in the target (dependent) variable.
+   
+   <img src="readmeMisc/example4.png" alt="Outcome Value Counts" width="400px">
+
+5. **`dataset.groupby('Outcome').mean()`** → Groups data based on the `Outcome` column and calculates the mean for each group.
+   
+   <img src="readmeMisc/example5.png" alt="Grouped Mean by Outcome" width="500px">
+
+6. **`dataset.isnull().sum()`** → Checks for missing values in each column and provides the total count per column.
+   
+   <img src="readmeMisc/example6.png" alt="Missing Values Count" width="400px">
+
+
+### 📈 Evaluation Techniques for Regression and Classification
+
+#### 🟢 Classification Metrics
+For classification problems where `y_test` and `y_pred` are categorical (e.g., classes like 0, 1, 2), common evaluation metrics include:
+- **Confusion Matrix** → Visualizes correct vs. incorrect predictions.
+- **Accuracy Score** → Measures the proportion of correctly classified instances.
+
+#### 🔵 Regression Metrics
+For regression problems where `y_test` and `y_pred` are continuous values, the following metrics are commonly used:
+- **Mean Absolute Error (MAE)** → Measures the average absolute differences between actual and predicted values.
+- **Mean Squared Error (MSE)** → Computes the average squared differences between actual and predicted values.
+- **Root Mean Squared Error (RMSE)** → Square root of MSE, providing a more interpretable error measure.
+- **R² Score (Coefficient of Determination)** → Indicates how well the model explains the variance in the target variable.
