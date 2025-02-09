@@ -13,3 +13,8 @@
 
 - **XGBoost**:
     1. House Price Prediction
+
+## Unsupervised ML:
+
+- **Similarity-Based Retrieval**
+    1. Movie Recommendation System -> Cosine Similarity Algoritm

@@ -12,7 +12,7 @@ In this repository, I will share my *recipes* for different Machine Learning alg
 - **Level 5**: Association Rule Learning
 - **Level 6**: Reinforcement Learning
 
-## Popular Functions Explained:
+## Popular Techniques Explained:
 
 - **Fit**: This tells the algorithm to learn how different features contribute to an output. It's like teaching a baby how to build a Lego tower using various blocks.
   

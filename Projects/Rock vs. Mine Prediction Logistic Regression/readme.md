@@ -19,7 +19,7 @@ To execute the script, run the following command:
 ```bash
 python sonar_classification.py
 ```
-## Images
+## Visulization
 ![Rock Vs. Mine Prediction using Logistic Regression](RvsMimage.png)
 
 
@@ -27,9 +27,8 @@ python sonar_classification.py
 - Implements **PCA** to reduce feature dimensions.
 - Uses **Logistic Regression** for classification.
 - **Confusion Matrix & Accuracy Score** for model evaluation.
-- **2D Visualization** of classification results using decision boundaries.
 
 ## Limitations
 - The dataset originally has ~60 features; reducing to 2 PCs may lead to information loss.
-- For predicting the individual prediction make use of PCA first.
+- For predicting the individual prediction (i.e. the input data containing 60 features) make use of PCA first.
  
